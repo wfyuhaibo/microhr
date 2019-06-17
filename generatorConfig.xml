@@ -99,7 +99,7 @@
 
           注意，table里面很多参数都是对javaModelGenerator，context等元素的默认属性的一个复写；
          -->
-		<table schema="dbo" tableName="hr" domainObjectName="Hr"
+		<table schema="dbo" tableName="role" domainObjectName="Role"
 			   enableCountByExample="false" enableUpdateByExample="false"
 			   enableDeleteByExample="false" enableSelectByExample="false">
 			<!-- <property name="defaultIsDeleteSearch" value="True" /> -->
@@ -107,37 +107,37 @@
 			<generatedKey column="id" sqlStatement="JDBC" identity="true" />
 			<!-- <ignoreColumn column="deleted" delimitedColumnName="" /> -->
 		</table>
-		<table schema="dbo" tableName="adjustsalary" domainObjectName="AdjustSalary"
+		<!--<table schema="dbo" tableName="adjustsalary" domainObjectName="AdjustSalary"
 			   enableCountByExample="false" enableUpdateByExample="false"
 			   enableDeleteByExample="false" enableSelectByExample="false">
-			<!-- <property name="defaultIsDeleteSearch" value="True" /> -->
+			&lt;!&ndash; <property name="defaultIsDeleteSearch" value="True" /> &ndash;&gt;
 			<property name="useActualColumnNames" value="true" />
 			<generatedKey column="id" sqlStatement="JDBC" identity="true" />
-			<!-- <ignoreColumn column="deleted" delimitedColumnName="" /> -->
+			&lt;!&ndash; <ignoreColumn column="deleted" delimitedColumnName="" /> &ndash;&gt;
 		</table>
 		<table schema="dbo" tableName="appraise" domainObjectName="Appraise"
 			   enableCountByExample="false" enableUpdateByExample="false"
 			   enableDeleteByExample="false" enableSelectByExample="false">
-			<!-- <property name="defaultIsDeleteSearch" value="True" /> -->
+			&lt;!&ndash; <property name="defaultIsDeleteSearch" value="True" /> &ndash;&gt;
 			<property name="useActualColumnNames" value="true" />
 			<generatedKey column="id" sqlStatement="JDBC" identity="true" />
-			<!-- <ignoreColumn column="deleted" delimitedColumnName="" /> -->
+			&lt;!&ndash; <ignoreColumn column="deleted" delimitedColumnName="" /> &ndash;&gt;
 		</table>
 		<table schema="dbo" tableName="hr" domainObjectName="Hr"
 			   enableCountByExample="false" enableUpdateByExample="false"
 			   enableDeleteByExample="false" enableSelectByExample="false">
-			<!-- <property name="defaultIsDeleteSearch" value="True" /> -->
+			&lt;!&ndash; <property name="defaultIsDeleteSearch" value="True" /> &ndash;&gt;
 			<property name="useActualColumnNames" value="true" />
 			<generatedKey column="id" sqlStatement="JDBC" identity="true" />
-			<!-- <ignoreColumn column="deleted" delimitedColumnName="" /> -->
+			&lt;!&ndash; <ignoreColumn column="deleted" delimitedColumnName="" /> &ndash;&gt;
 		</table>
 		<table schema="dbo" tableName="department" domainObjectName="Department"
 			   enableCountByExample="false" enableUpdateByExample="false"
 			   enableDeleteByExample="false" enableSelectByExample="false">
-			<!-- <property name="defaultIsDeleteSearch" value="True" /> -->
+			&lt;!&ndash; <property name="defaultIsDeleteSearch" value="True" /> &ndash;&gt;
 			<property name="useActualColumnNames" value="true" />
 			<generatedKey column="id" sqlStatement="JDBC" identity="true" />
-			<!-- <ignoreColumn column="deleted" delimitedColumnName="" /> -->
-		</table>
+			&lt;!&ndash; <ignoreColumn column="deleted" delimitedColumnName="" /> &ndash;&gt;
+		</table>-->
 	</context>
 </generatorConfiguration>
