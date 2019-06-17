@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: microhr
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: utf-8
